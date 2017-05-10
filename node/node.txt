@@ -1,0 +1,11 @@
+http--协议
+request--浏览器请求
+response--服务器输出给浏览器
+
+数据请求：
+前台：form ajax jsonp
+后台-> 一样不管用什么方法
+
+请求方式“
+post get
+post 数据接收比get大的多
