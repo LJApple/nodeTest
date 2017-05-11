@@ -13,8 +13,8 @@
 				
 				oReg.onclick = function(){
 					ajax({
-						url:'/user',
-						data:{act:'reg',user:oUser.value,pass:oPwd.value},
+						url:'/Register',
+						data:{user:oUser.value,pass:oPwd.value},
 						type:'get',
 						dateType:'json',
 						success:function(data){
@@ -35,7 +35,7 @@
 				oLog.onclick = function(){
 					ajax({
 						url:'/login',
-						data:{act:'login',user:oUser.value,pass:oPwd.value},
+						data:{user:oUser.value,pass:oPwd.value},
 						type:'get',
 						success:function(str){
 							var json=eval('('+str+')');
