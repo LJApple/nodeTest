@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/LJApple/nodeTest/issues"
   },
-  "homepage": "https://github.com/LJApple/nodeTest#readme"
+  "homepage": "https://github.com/LJApple/nodeTest#readme",
+  "devDependencies": {
+    "mysql": "^2.13.0"
+  }
 }

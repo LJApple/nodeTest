@@ -27,4 +27,8 @@ Net 网络操作
 require
 exports
 module
-2.引入模块 ./
+2.引入模块 ./ 不加的话 需要放在node_modules
+
+系统模块和自定义模块的优先级
+先从系统模块中找
+再从自定义模块 自定义模块放在node_modules
