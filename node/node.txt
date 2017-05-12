@@ -46,3 +46,35 @@ res
 .use()
 
 express-static 读取静态文件
+
+cookie
+在浏览器保存一些数据，每次请求都会带过来
+1.cookie空间小
+2.安全性差
+
+1.精打细算
+2教研cookie是否被篡改过
+a.发送cookie
+res.cookie(名字，值,{path:'/',maxAge:毫秒});
+b.读取cookie
+cookie-parser
+
+server.use(cookieParser('秘钥'))
+
+server.use(function(){
+	req.cookies 未签名版
+	req.signedCookies 签名版
+});
+
+删除 cookie
+clearCookie
+
+cookie-encriypter 加密
+
+session:保存在服务端 安全
+session是基于cookie cookie会有一个session的id，服务器利用sessionid
+模板引擎
+
+jade-破坏式、侵入式、强依赖
+
+ejs-温和、非侵入式、若依赖
