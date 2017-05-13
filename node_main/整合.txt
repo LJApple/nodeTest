@@ -1,0 +1,16 @@
+consolidate(模板引擎)适配
+
+1、输出什么东西
+server.set('view engine','html');
+2、末班文件放在哪
+server.set('views','/views');
+3、那种模板引擎
+server.engine('html','conselidate.ejs');
+
+server.get('/index',function(req,res){
+	res.render('1.ejs',{name:'blue'});
+})
+
+路由：
+把不同的目录，对应到不同的模块
+
