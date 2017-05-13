@@ -76,5 +76,8 @@ session是基于cookie cookie会有一个session的id，服务器利用sessionid
 模板引擎
 
 jade-破坏式、侵入式、强依赖
+1、根据缩进规定层级
+2、属性放在（）里面
+
 
 ejs-温和、非侵入式、若依赖
